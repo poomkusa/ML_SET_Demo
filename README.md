@@ -17,6 +17,6 @@ You may train using one of the available algorithms (note that hyperparameters h
 
 Neural Network: CNN with LeakyReLU in hidden layers and softmax in output layers, regularized by dropout and batch normalization, Adam as an optimizer.
 
-SVM: current setting is C = 100, the rest are default from sklearn.
+SVM: C = 100, the rest are default from sklearn.
 
-Random Forest: current setting is number of trees = 25, the rest are default from sklearn.
+Random Forest: number of trees = 25, the rest are default from sklearn.
