@@ -120,7 +120,7 @@ history = model.fit(X_train, Y_train,
           callbacks=[reduce_lr, checkpointer],
           shuffle=True)
 
-model.load_weights("lolkek.hdf5")
+#model.load_weights("lolkek.hdf5")
 pred = model.predict(np.array(X_test))
 
 from sklearn.metrics import classification_report
